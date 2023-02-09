@@ -1,0 +1,68 @@
+
+
+
+.navbar ul li{
+    display:inline-block;
+}
+
+ul{
+    list-style:none;
+}
+
+a ,a:hover,a:active,a:focus{
+    text-decoration:none;
+    display:inline-block;
+}
+.text-align{
+    text-align: center;
+}
+
+.row, .row::after,.row::before{
+    display:table;
+    clear:both;
+    width:100%;
+}
+
+div[class^="col"]{
+    float:left;
+    padding:0 15px;
+}
+
+
+.col-4{
+    width:calc(100% * 4 / 12);
+}
+.col-5{
+    width:calc(100% * 5 / 12);
+}
+.col-6{
+    width:50%;
+    /* or */
+    width:calc(100% * 6 / 12);
+}
+.col-8{
+    width:calc(100% * 8 / 12);
+}
+.col-12{
+    width:100%;
+}
+
+.offset-col-2{
+    margin-left:calc(100% * 2 / 12);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
